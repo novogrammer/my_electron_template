@@ -9,10 +9,20 @@ my_electron_template
 * nodejs
 
 ##導入
+
     npm install
 
 ##実行
+
     npm run start
 
 ##パッケージ作成
+
     npm run build
+
+##パッケージ削除（MacでFinderから消せないバグがある）
+
+see https://github.com/electron-userland/electron-packager/issues/375
+
+    npm run clean
+
